@@ -7,6 +7,10 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+import { AngularFireModule } from '@angular/fire';
+import { AngularFrameworkDelegate } from '@ionic/angular/providers/angular-delegate';
+import { FirebaseApp } from '@angular/fire';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
